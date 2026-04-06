@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    padding: 16px 64px;
+    background-color: #8A7650;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #F3E3D0;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+a:hover{
+    background-color: lab(60.57% 2.69 26.74);
+}
+
+.logo {
+    font-weight: 700;
+}
+
+header {
+    background-image: url(https://www.targethost.com.br/wp-content/uploads/2019/10/programa%C3%A7%C3%A3o_1504275918.jpg);
+    height: 300px;
+    background-size: cover;
+    filter: grayscale(0.5);
+}
+
+main {
+    padding: 64px;
+}
+
+section {
+    min-height: 300px;
+
+}
+
+article {
+    height: 500px;
+    display: flex;
+    margin-bottom: 32px;
+    background-color: white;
+}
+
+article img {
+    height: 100%;
+}
+
+article div {
+    padding: 32px;
+}
+
+footer {
+    background-color: #B6AE9F;
+    height: 300px;
+    padding: 64px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 32px;
+    text-align: justify;
+}
+
+
